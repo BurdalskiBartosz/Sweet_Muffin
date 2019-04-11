@@ -2,9 +2,12 @@ import React from 'react';
 
 const Navigation = () => {
     return (
-        <div>
-            NAWIGACJA
-        </div>
+        <ul className="nav__list">
+            <li className="nav__item">Start</li>
+            <li className="nav__item">Menu</li>
+            <li className="nav__item">Usługi</li>
+            <li className="nav__item">COSTAM</li>
+        </ul>
     );
 }
 

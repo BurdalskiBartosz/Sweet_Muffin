@@ -1,0 +1,12 @@
+.nav__list{
+    display: flex;
+    background-color: white;
+    list-style-type:none;
+    padding: 10px;
+    .nav__item{
+        margin-right: 5px;
+        &:hover{
+            background-color: red;
+        }
+    }
+}

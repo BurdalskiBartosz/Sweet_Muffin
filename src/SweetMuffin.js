@@ -24,12 +24,19 @@ class SweetMuffin extends Component {
             <aside className="container__aside">
               <AsidePanel />
             </aside>
+
             <section className="container__section">
-              <MainPage />
+
+              <section className="container__centerOfPage">
+                <MainPage />
+              </section>
+
+              <section className="container__contact">
+                <Contact />
+              </section>
+
             </section>
-            <section className="container__contact">
-              <Contact />
-            </section>
+
           </main>
         </div>
       </Router>

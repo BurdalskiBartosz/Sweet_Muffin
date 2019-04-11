@@ -6,44 +6,43 @@
 .container{
     display: flex;
     flex-direction: column;
-    width: 100vw;
     min-height: 100vh;
-    background-color: green;
     &__header{
         position:absolute;
-        top: 20%;
-        left:30%;
+        top: 40%;
+        left:50%;
+        transform: translate(-50%,-50%);
     }
     &__nav{
         position:absolute;
         top: 0;
-        right: 10%;
+        right: 0;
     }
     &__page{
-        flex-basis: 80vh;
-        display: flex;
-        // background-color: white;
-        
+        flex-basis: 110vh;
+        display: flex;        
         .container__aside{
+            display: none;
             flex-basis: 10%;
-            height: 100vh;
-            background-color: yellow;
             &:first-child{
                 background-color: hotpink;
             }
             &:last-of-type{
                 order: 1;
-                 background-color: blue;
+                background-color: blue;
             }
         }
         .container__section{
             flex-grow:1;
-            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .container__centerOfPage{
+                flex-grow: 1;
+            }
+            .container__contact{      
+                height: 30vh;  
+            } 
         }
     }
-    .container__contact{      
-        height: 20vh;  
-    background-color: grey;
-    }
-    
 }
