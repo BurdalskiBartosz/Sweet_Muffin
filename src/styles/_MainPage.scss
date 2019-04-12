@@ -1,18 +1,16 @@
 .page{
-    position: relative;
-    z-index: -1;
-    height: 100%;
-    background-image: url('../images/panels_small-min.jpeg');
-    background-size: 20% 100%;
-    &:after{
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        content: "";
-        width: 90%;
-        height: 1px;
-        border-bottom: 3px solid black;
-        border-radius: 20%;
-        transform: translateX(-50%);
+    width: 60%;
+    // height: 30%;
+    opacity:0;
+    animation: changeOpacityStartPage 0.5s 2.5s both;
+    &__wrapper{
+        background-color: rgba(255, 0, 0, 0.692);
+        border: 2px solid black;
+        box-shadow: 0px 0px 25px 10px rgb(0, 0, 0);
+        text-align: center;
+    }
+    &__slider{
+        width: 120%;
+        background-color: white;
     }
 }
