@@ -1,0 +1,15 @@
+.slider {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    height: 30vh;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 2px solid black;
+    &__wrapper {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        transition: transform  0.45s;
+    }
+}

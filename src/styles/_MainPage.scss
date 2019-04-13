@@ -1,16 +1,17 @@
 .page{
-    width: 60%;
-    // height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
     opacity:0;
     animation: changeOpacityStartPage 0.5s 2.5s both;
     &__wrapper{
-        background-color: rgba(255, 0, 0, 0.692);
+        width: 60%;
+        background-color: rgba(245, 245, 220, 0.7);
         border: 2px solid black;
         box-shadow: 0px 0px 25px 10px rgb(0, 0, 0);
         text-align: center;
-    }
-    &__slider{
-        width: 120%;
-        background-color: white;
+        margin-bottom: 25px;
     }
 }

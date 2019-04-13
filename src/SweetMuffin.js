@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import AsidePanel from './components/AsidePanel';
-import MainPage from './components/MainPage';
-import Contact from './components/Contact';
+import Header from './layouts/Header';
+import Navigation from './layouts/Navigation';
+import AsidePanel from './layouts/AsidePanel';
+import Page from './layouts/Page';
+import Contact from './layouts/Contact';
 
 class SweetMuffin extends Component {
+
   render() {
     return (
       <Router>
@@ -28,7 +29,7 @@ class SweetMuffin extends Component {
             <section className="container__section">
 
               <section className="container__centerOfPage">
-                <MainPage />
+                <Page />
               </section>
 
               <section className="container__contact">
@@ -36,7 +37,6 @@ class SweetMuffin extends Component {
               </section>
 
             </section>
-
           </main>
         </div>
       </Router>

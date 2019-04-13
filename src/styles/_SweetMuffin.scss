@@ -9,6 +9,7 @@
     min-height: 100vh;
     &__header{
         position:absolute;
+        
         top: 40%;
         left:50%;
         width: 75vmin;
@@ -16,11 +17,17 @@
         transform: translate(-50%,-50%);
         
         animation: changePositionOfHeader 2s both 1s;
+        
+        z-index: 1;
     }
     &__nav{
         position:absolute;
         top: 0;
         right: 0;
+        z-index: 1;
+        border-left: 2px solid black;
+        // border-bottom: 2px solid transparent;
+        background-color: beige;
     }
     &__page{
         flex-basis: 110vh;
@@ -43,13 +50,12 @@
             justify-content: space-between;
             .container__centerOfPage{
                 flex-grow: 1;
-                
+                 
                 position: relative;
-                z-index: -1;
 
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                align-items: flex-end;
                 
                 background-image: url('../images/panels_small-min.jpeg');
                 background-size: 20% 100%;

@@ -13,8 +13,7 @@
         padding-bottom: 5px;
         .contact__infoItem{
             position: relative;
-            border-bottom: 2px solid rgb(255, 30, 0);
-            padding-bottom: 5px;
+            // padding-bottom: 5px;
             margin-bottom: 5px;
             &:before{
                 position: absolute;
@@ -24,7 +23,7 @@
                 width: 10px;
                 height: 10px;
                 border-radius: 50%;
-                background-color: rgb(255, 30, 0);
+                background-color: rgb(245, 245, 220);
                 transform: translateY(-50%);
             }
         }
