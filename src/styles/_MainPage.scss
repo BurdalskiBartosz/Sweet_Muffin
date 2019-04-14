@@ -5,7 +5,13 @@
     justify-content: center;
     height: 80%;
     opacity:0;
-    animation: changeOpacityStartPage 0.5s 2.5s both;
+    &-animation{
+        animation: changeOpacityStartPage 0.3s 1s both;
+    }
+    &-withoutAnimation{
+        animation: none;
+        opacity: 1;
+    }
     &__wrapper{
         width: 60%;
         background-color: rgba(245, 245, 220, 0.7);
