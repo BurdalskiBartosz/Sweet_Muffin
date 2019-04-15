@@ -5,6 +5,8 @@ import img1 from '../../images/Cakes images/img1.jpg'
 import img2 from '../../images/Cakes images/img2.jpg'
 import img3 from '../../images/Cakes images/img3.jpg'
 import img4 from '../../images/Cakes images/img4.jpg'
+import img5 from '../../images/Cakes images/img5.jpg'
+
 
 class Slider extends Component {
     state = {
@@ -12,12 +14,12 @@ class Slider extends Component {
             img1,
             img2,
             img3,
-            img4
+            img4,
+            img5
         ],
         currentSlide: 0,
         translateValue: 0
     }
-
 
     goToPrevSlide = () => {
         if (this.state.currentSlide === 0)

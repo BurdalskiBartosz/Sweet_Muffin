@@ -1,0 +1,12 @@
+.menuPage{
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: column;
+    justify-content: center;
+    height: 75%;
+    width: 100%;
+    overflow: scroll;
+    &::-webkit-scrollbar { 
+        display: none; 
+    }
+}

@@ -15,9 +15,18 @@
         width: 75vmin;
         height: 75vmin;
         transform: translate(-50%,-50%);
-        
-        animation: changePositionOfHeader 1.2s both ;
-        
+        // &-animation{
+        animation: changePositionOfHeader 2s both 1s;
+        // }
+        // &-withoutAnimation{
+        //     animation: none;
+        //     top:0;
+        //     left:0;
+        //     width: 30vmin;
+        //     height: 30vmin;
+        //     font-size: 6px;
+        //     transform: translate(0,0) rotate(-360deg);
+        // }
         z-index: 1;
     }
     &__nav{
