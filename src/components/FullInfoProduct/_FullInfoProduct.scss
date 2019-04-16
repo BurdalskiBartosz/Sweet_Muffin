@@ -1,0 +1,39 @@
+.wrapperInfo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    &__title{
+        margin-bottom: 20px;
+    }
+    .wrapperInfo__details{
+        flex-grow: 1;
+        display: flex;
+        .wrapperInfo__img{
+            width: 30vw;
+            height: 30vw;
+            border:3px solid black;
+            border-radius: 50%;
+        }
+        .wrapperInfo__information{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around; 
+            font-weight: bold;
+            .wrapperInfo__description{
+                width: 45vw;
+            }
+        }
+
+    }
+    .fas.fa-times-circle{
+        position: absolute;
+        top: 0;
+        right: 0;   
+        font-size: 20px;
+        color: beige;
+        transition: 0.3s;
+        &:hover{
+           color: black;
+        }
+    }
+}

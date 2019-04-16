@@ -16,24 +16,24 @@ import cake12 from '../images/Menu images/cake12.jpg'
 class MenuPage extends Component {
     state = {
         products: [
-            { id: 1, name: "Elegancka czekolada", price: "7zł", priceForFive: "30zł", image: cake1, visible: false, },
-            { id: 2, name: "Waniliffin", price: "5zł", priceForFive: "20zł", image: cake2, visible: false, },
-            { id: 3, name: "Czerwonka", price: "4zł", priceForFive: "17zł", image: cake3, visible: false, },
-            { id: 4, name: "Albinos", price: "5zł", priceForFive: "22zł", image: cake4, visible: false, },
-            { id: 5, name: "Malinowy cud", price: "6zł", priceForFive: "25zł", image: cake5, visible: false, },
-            { id: 6, name: "Francuzik", price: "6zł", priceForFive: "25zł", image: cake6, visible: false, },
-            { id: 7, name: "Pudrowy róż", price: "6zł", priceForFive: "25zł", image: cake7, visible: false, },
-            { id: 8, name: "Cynamonowa rozkosz", price: "6zł", priceForFive: "25zł", image: cake8, visible: false, },
-            { id: 9, name: "Czerwony baron", price: "6zł", priceForFive: "25zł", image: cake9, visible: false, },
-            { id: 10, name: "Suflet", price: "6zł", priceForFive: "25zł", image: cake10, visible: false, },
-            { id: 11, name: "Truskawkowa krówka", price: "6zł", priceForFive: "25zł", image: cake11, visible: false, },
-            { id: 12, name: "Sernik z truskawką", price: "6zł", priceForFive: "25zł", image: cake12, visible: false, },
+            { id: 1, name: "Elegancka czekolada", price: "7zł", priceForFive: "30zł", image: cake1, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
+            { id: 2, name: "Waniliffin", price: "5zł", priceForFive: "20zł", image: cake2, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
+            { id: 3, name: "Czerwonka", price: "4zł", priceForFive: "17zł", image: cake3, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
+            { id: 4, name: "Albinos", price: "5zł", priceForFive: "22zł", image: cake4, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
+            { id: 5, name: "Malinowy cud", price: "6zł", priceForFive: "25zł", image: cake5, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
+            { id: 6, name: "Francuzik", price: "6zł", priceForFive: "25zł", image: cake6, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
+            { id: 7, name: "Pudrowy róż", price: "6zł", priceForFive: "25zł", image: cake7, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
+            { id: 8, name: "Cynamonowa rozkosz", price: "6zł", priceForFive: "25zł", image: cake8, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
+            { id: 9, name: "Czerwony baron", price: "6zł", priceForFive: "25zł", image: cake9, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' },
+            { id: 10, name: "Suflet", price: "6zł", priceForFive: "25zł", image: cake10, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
+            { id: 11, name: "Truskawkowa krówka", price: "6zł", priceForFive: "25zł", image: cake11, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
+            { id: 12, name: "Sernik z truskawką", price: "6zł", priceForFive: "25zł", image: cake12, visible: false, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', },
         ]
     }
 
     handleClick = (id) => {
         const products = [...this.state.products];
-        products.map(product => {
+        products.forEach(product => {
             if (product.id !== id) {
                 product.visible = false;
             }
@@ -50,7 +50,17 @@ class MenuPage extends Component {
         return (
             <div className="menuPage">
                 {this.state.products.map(product => (
-                    <Product id={product.id} click={this.handleClick} item={product.name} key={product.id} />
+                    <Product key={product.id} click={this.handleClick} {...product} />
+                    // <Product
+                    //     click={this.handleClick}
+                    //     image={product.image}
+                    //     visible={product.visible ? product.visible : false}
+                    //     id={product.id}
+                    //     name={product.name}
+                    //     key={product.id}
+                    //     price={product.price}
+                    //     priceForFive={product.priceForFive}
+                    //     description={product.description} />
                 ))}
             </div>
         );
