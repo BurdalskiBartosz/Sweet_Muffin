@@ -1,0 +1,19 @@
+.servicesPage{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    height: 75%;
+    &__wrapper{
+        flex-basis: 100%;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }  
+    &__section{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        flex-basis: 45%;
+    }
+}
