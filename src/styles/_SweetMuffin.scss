@@ -33,7 +33,7 @@ html{
         z-index: 1;
     }
     &__nav{
-        position:absolute;
+        position: fixed;
         top: 0;
         right: 0;
         z-index: 1;
@@ -42,7 +42,8 @@ html{
         background-color: beige;
     }
     &__page{
-        flex-basis: 110vh;
+        // flex-basis: 110vh;
+        min-height: 110vh;
         display: flex;        
         .container__aside{
             display: none;
@@ -83,9 +84,8 @@ html{
                     transform: translateX(-50%);
                 }
             }
-            .container__contact{      
-                height: 30vh;  
-            } 
+            // .container__contact{      
+            // } 
         }
     }
 }
