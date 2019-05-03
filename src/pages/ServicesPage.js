@@ -6,11 +6,6 @@ class ServicesPage extends Component {
         services: [
             { title: "Muffinowe Torty Ślubne", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit." },
             { title: "Ciasteczkowe Chrzciny", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit." },
-            { title: "Party Muffinowe", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit." },
-            { title: "Muffinowe Urodziny", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit." },
-            { title: "Muffinowe Urodziny", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit." },
-            { title: "Muffinowe Urodziny", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit." },
-
         ]
     }
 
