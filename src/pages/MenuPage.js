@@ -51,16 +51,6 @@ class MenuPage extends Component {
             <div className="menuPage">
                 {this.state.products.map(product => (
                     <Product key={product.id} click={this.handleClick} {...product} />
-                    // <Product
-                    //     click={this.handleClick}
-                    //     image={product.image}
-                    //     visible={product.visible ? product.visible : false}
-                    //     id={product.id}
-                    //     name={product.name}
-                    //     key={product.id}
-                    //     price={product.price}
-                    //     priceForFive={product.priceForFive}
-                    //     description={product.description} />
                 ))}
             </div>
         );

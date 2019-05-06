@@ -2,11 +2,13 @@ import React from 'react';
 
 const ServiceOption = (props) => {
     return (
-        <section className="servicesPage__section">
+        <div className="servicesPage__service">
             <h4 className="servicePage__title">{props.title}</h4>
             <p className="servicePage__text">{props.text}</p>
-            <i className="fas fa-arrow-circle-down"></i>
-        </section>
+            <p className="servicePage__text">{props.description}</p>
+            <img src={props.serviceImg}></img>
+
+        </div>
     );
 }
 
