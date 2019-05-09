@@ -5,6 +5,7 @@ const pages = [
     { page: 'Start', path: '/', exact: true },
     { page: 'Menu', path: '/menu' },
     { page: 'Usługi', path: '/services' },
+    { page: 'Kontakt', path: '/contact' },
     { page: 'O nas', path: '/about' },
 ]
 

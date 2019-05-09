@@ -4,9 +4,11 @@ import Header from './layouts/Header';
 import Navigation from './layouts/Navigation';
 import AsidePanel from './layouts/AsidePanel';
 import Page from './layouts/Page';
-import Contact from './layouts/Contact';
+import Footer from './layouts/Footer';
 
 class SweetMuffin extends Component {
+
+
 
   render() {
     return (
@@ -32,10 +34,9 @@ class SweetMuffin extends Component {
                 <Page />
               </section>
 
-              <section className="container__contact">
-                <Contact />
-              </section>
-
+              <footer className="container__footer">
+                <Footer />
+              </footer>
             </section>
           </main>
         </div>

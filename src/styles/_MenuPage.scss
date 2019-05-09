@@ -1,12 +1,8 @@
 .menuPage{
     display: flex;
     flex-wrap: wrap;
-    // flex-direction: column;
     justify-content: center;
-    height: 85%;
-    width: 100%;
-    overflow: scroll;
-    &::-webkit-scrollbar { 
-        display: none; 
-    }
+    align-content: flex-end;
+    width: 80vw;
+ 
 }
