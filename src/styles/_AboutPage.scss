@@ -3,6 +3,22 @@
     flex-direction: column;
     justify-content: flex-end;
     width: 90%;
-    text-align: center;
     margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+
+    .about__title{
+        text-align: center;
+        animation: fontColor 5s infinite forwards;
+    }
+    .about__img{
+        width:60%;
+        max-width: 500px;
+        float: left;
+        border: 6px solid rgb(255, 255, 225);
+        margin: 5px;
+        box-shadow: 5px 5px 10px black;
+        &-right__img{
+            float: right;
+        }
+    }
 }
