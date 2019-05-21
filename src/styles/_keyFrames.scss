@@ -19,18 +19,6 @@
         color: black;
     }
 }
-@keyframes changePositionOfHeader{
-    100%{
-        top:0;
-        left:0;
-        width: 30vmin;
-        height: 30vmin;
-        font-size: 6px;
-        transform: translate(0,0) rotate(-360deg);
-
-    }
-}
-
 @keyframes changeOpacityStartPage{
     100%{
         opacity: 1;

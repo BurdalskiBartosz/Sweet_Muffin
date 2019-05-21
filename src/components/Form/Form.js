@@ -25,6 +25,7 @@ class Form extends Component {
                             <optgroup label="Usługi">
                                 <option value="muffin wedding cakes">Muffinowe Torty Ślubne</option>
                                 <option value="cookie baptisms">Ciasteczkowe Chrzciny</option>
+                                <option value="cookie wedding">Ciasteczkowy Ślub</option>
                                 <option value="other service">Inna usługa</option>
                             </optgroup>
                             <optgroup label="Inne">

@@ -7,14 +7,18 @@ import Page from './layouts/Page';
 import Footer from './layouts/Footer';
 
 class SweetMuffin extends Component {
+  componentDidMount() {
+    console.log("DZIALA")
 
+    setTimeout(() => { document.querySelector('.container__header').classList.add('container__header-changed'); }, 200)
+  }
 
 
   render() {
     return (
       <Router>
         <div className="container">
-          <header className="container__header">
+          <header className="container__header ">
             <Header />
           </header>
           <nav className="container__nav">

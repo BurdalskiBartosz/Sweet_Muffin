@@ -9,13 +9,14 @@ class ServicesPage extends Component {
         services: [
             { title: "Muffinowe Torty Ślubne", serviceImg: Service1, description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit." },
             { title: "Ciasteczkowe Chrzciny", serviceImg: Service2, description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit." },
+            { title: "Ciasteczkowy Ślub", serviceImg: Service1, description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit." },
         ]
     }
 
     render() {
         return (
             <div className="servicesPage">
-                <h3>Nasza cukiernia poleca</h3>
+                <h3 className="servicesPage__title">Nasza cukiernia poleca</h3>
                 <section className="servicesPage__wrapper">
                     {this.state.services.map((service, index) =>
                         (

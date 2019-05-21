@@ -11,7 +11,7 @@
         .wrapperInfo__img{
             width: 30vw;
             height: 30vw;
-            border:3px solid black;
+            border:3px solid beige;
             border-radius: 50%;
         }
         .wrapperInfo__information{
@@ -20,7 +20,7 @@
             justify-content: space-around; 
             font-weight: bold;
             .wrapperInfo__description{
-                width: 45vw;
+                width: 43vw;
             }
         }
     }
@@ -33,6 +33,157 @@
         transition: 0.3s;
         &:hover{
            color: black;
+        }
+    }
+}
+
+@media (orientation: landscape) {
+    .wrapperInfo{
+        .wrapperInfo__details{
+            .wrapperInfo__img{
+            width: 23vw;
+            height: 23vw;
+            }
+            .wrapperInfo__information{
+                .wrapperInfo__description{
+                    width: 35vw;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 414px) {
+    .wrapperInfo{
+        .wrapperInfo__details{
+            .wrapperInfo__img{
+            width: 28vw;
+            height: 28vw;
+            }
+            .wrapperInfo__information{
+                .wrapperInfo__description{
+                    width: 34vw;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 576px) {
+    .wrapperInfo{
+        .wrapperInfo__details{
+            .wrapperInfo__img{
+            width: 26vw;
+            height: 26vw;
+            }
+            .wrapperInfo__information{
+                .wrapperInfo__description{
+                    width: 32vw;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 660px) {
+    .wrapperInfo{
+        .wrapperInfo__details{
+            .wrapperInfo__img{
+            width: 23vw;
+            height: 23vw;
+            }
+            .wrapperInfo__information{
+                .wrapperInfo__description{
+                    width: 35vw;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .wrapperInfo{
+        .wrapperInfo__details{
+            .wrapperInfo__img{
+            width: 22vw;
+            height: 22vw;
+            }
+            .wrapperInfo__information{
+                .wrapperInfo__description{
+                    width: 35vw;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 812px) and (min-height:370px){
+    .wrapperInfo{
+        .wrapperInfo__details{
+            .wrapperInfo__img{
+            width: 18vw;
+            height: 18vw;
+            }
+            .wrapperInfo__information{
+                .wrapperInfo__description{
+                    width: 25vw;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .wrapperInfo{
+        .wrapperInfo__details{
+            .wrapperInfo__img{
+            width: 16vw;
+            height: 16vw;
+            }
+            .wrapperInfo__information{
+                .wrapperInfo__description{
+                    width: 17vw;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .wrapperInfo{
+        .wrapperInfo__details{
+            .wrapperInfo__img{
+            width: 15vw;
+            height: 15vw;
+            }
+            .wrapperInfo__information{
+                .wrapperInfo__description{
+                    width: 13vw;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1530px) {
+    .wrapperInfo{
+        .wrapperInfo__details{
+            .wrapperInfo__img{
+            width: 14vw;
+            height: 14vw;
+            }
+            .wrapperInfo__information{
+                .wrapperInfo__description{
+                    width: 12vw;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1915px) {
+    .wrapperInfo{
+        .wrapperInfo__details{
+            .wrapperInfo__img{
+            width: 13vw;
+            height: 13vw;
+            }
+            .wrapperInfo__information{
+                .wrapperInfo__description{
+                    width: 12vw;
+                }
+            }
         }
     }
 }

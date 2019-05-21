@@ -15,10 +15,114 @@
     top: 35%;
     width: 80vw;
     height: 60vw;
-    border:2px solid black;
     border-radius: 15px;
-    background: linear-gradient(65deg,beige 45%,grey);
     text-align: center;
     overflow: hidden;
     transition: width 1s;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 5px solid beige;
+    box-shadow: 5px 5px 10px black;
+    padding: 5px;
+    color: rgb(182, 182, 182);
+
+}
+
+@media (orientation: landscape) {
+    .product{
+        width: 25vw;
+        height: 25vw;
+    }
+    .fullInfo{
+        width: 60vw;
+        height: 60vh;
+    }
+}
+@media (min-width: 414px){
+    .fullInfo{
+        width: 70vw;
+        height: 45vw;
+    }
+}
+@media (min-width: 414px) and(orientation:landscape){
+    .fullInfo{
+        width: 70vw;
+        height: 40vw;
+    }
+}
+@media (min-width: 576px) {
+    .fullInfo{
+        width: 60vw;
+        height: 40vw;
+    }
+}
+@media (min-width: 576px) and(orientation:landscape){
+    .fullInfo{
+        width: 60vw;
+        height: 35vw;
+    }
+}
+@media (min-width: 660px) and (orientation: landscape) {
+    .product{
+        width: 20vw;
+        height: 20vw;
+    }
+    .fullInfo{
+        height: 60vh;
+    }
+}
+@media (min-width: 768px) {
+    .fullInfo{
+        height: 40vh;
+    }
+}
+@media (min-width: 810px) and (min-height:370px){
+    .fullInfo{
+        width: 45vw;
+        height: 57vh;
+    }
+}
+@media (min-width: 1024px) {
+    .fullInfo{
+        width: 35vw;
+        height: 25vw;
+    }
+}
+@media (min-width: 1200px) {
+    .fullInfo{
+        width: 30vw;
+        height: 20vw;
+    }
+}
+@media (min-width: 1281px) {
+    .product{
+        width: 17vw;
+        height: 17vw;
+    }
+}
+@media (min-width: 1400px) {
+    .product{
+        width: 15.5vw;
+        height: 15.5vw;
+    }
+}
+@media (min-width: 1530px) {
+    .fullInfo{
+        width: 28vw;
+        height: 18vw;
+    }
+    .product{
+        width: 15.2vw;
+        height: 15.2vw;
+    }
+}
+@media (min-width: 1915px) {
+    .fullInfo{
+        width: 28vw;
+        height: 18vw;
+    }
+    .product{
+        width: 15.5vw;
+        height: 15.5vw;
+    }
 }

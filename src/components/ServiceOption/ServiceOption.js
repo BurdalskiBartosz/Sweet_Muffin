@@ -7,7 +7,7 @@ const ServiceOption = (props) => {
             <div className='service__wrapper'>
                 <p className="servicePage__description">{props.description}</p>
                 <div>
-                    <img src={props.serviceImg} alt=''></img>
+                    <img className="service__img" src={props.serviceImg} alt=''></img>
                 </div>
             </div>
         </div>
