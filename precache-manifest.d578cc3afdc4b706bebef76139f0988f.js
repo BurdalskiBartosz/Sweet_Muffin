@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "5476f8e18ff5ca236314",
+    "revision": "b38d9d056b2b7e2a81fa",
     "url": "/sweet_muffin/static/css/main.af5cb0cd.chunk.css"
   },
   {
-    "revision": "5476f8e18ff5ca236314",
-    "url": "/sweet_muffin/static/js/main.cdf2621d.chunk.js"
+    "revision": "b38d9d056b2b7e2a81fa",
+    "url": "/sweet_muffin/static/js/main.fca5d47d.chunk.js"
   },
   {
     "revision": "ad7efd24af357351ca0b",
     "url": "/sweet_muffin/static/js/runtime~main.96610b4a.js"
   },
   {
-    "revision": "2b9f653802bca6a35312",
-    "url": "/sweet_muffin/static/js/2.949cf8e3.chunk.js"
+    "revision": "5f0bfa2166b79089e053",
+    "url": "/sweet_muffin/static/js/2.79bff06f.chunk.js"
   },
   {
     "revision": "ee05216c2a965b18d593e88cc3d79b3b",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/sweet_muffin/static/media/panels_small-min.d3a7f271.jpeg"
   },
   {
-    "revision": "b967dcb7e8d0d6120ce19e1ccddc0024",
+    "revision": "fdbf80486d7208efdf92306ded97d78b",
     "url": "/sweet_muffin/index.html"
   }
 ];
