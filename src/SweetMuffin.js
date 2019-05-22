@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Header from './layouts/Header';
 import Navigation from './layouts/Navigation';
 import AsidePanel from './layouts/AsidePanel';
@@ -8,15 +8,15 @@ import Footer from './layouts/Footer';
 
 class SweetMuffin extends Component {
   componentDidMount() {
-    console.log("DZIALA")
-
-    setTimeout(() => { document.querySelector('.container__header').classList.add('container__header-changed'); }, 200)
+    setTimeout(() => {
+      document.querySelector('.container__header').classList.add('container__header-changed');
+    }, 200)
   }
 
 
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="container">
           <header className="container__header ">
             <Header />

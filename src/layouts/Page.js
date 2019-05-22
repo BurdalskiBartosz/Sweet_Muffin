@@ -14,7 +14,7 @@ const Page = () => {
             <Route path='/services' component={ServicesPage} />
             <Route path='/contact' component={ContactPage} />
             <Route path='/about' component={AboutPage} />
-            <Route component={MainPage} />
+            <Route component={() => (<div>404 Not found 1</div>)} />
         </Switch>
     );
 }
