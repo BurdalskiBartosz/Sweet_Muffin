@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c7f9f6c379c47186e8da",
-    "url": "/sweet_muffin/static/css/main.93dddf46.chunk.css"
+    "revision": "e2e08fbfaa6839c0d226",
+    "url": "/sweet_muffin/static/css/main.c94af644.chunk.css"
   },
   {
-    "revision": "c7f9f6c379c47186e8da",
-    "url": "/sweet_muffin/static/js/main.79250560.chunk.js"
+    "revision": "e2e08fbfaa6839c0d226",
+    "url": "/sweet_muffin/static/js/main.4e44e9be.chunk.js"
   },
   {
     "revision": "ad7efd24af357351ca0b",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/sweet_muffin/static/media/panels_small-min.d3a7f271.jpeg"
   },
   {
-    "revision": "e37760d3b2ad10cc442d6f26a7cc1f3a",
+    "revision": "7913b716b9f9a366c3f1993a7bff1e3b",
     "url": "/sweet_muffin/index.html"
   }
 ];
