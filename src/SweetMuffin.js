@@ -8,9 +8,18 @@ import Footer from './layouts/Footer';
 
 class SweetMuffin extends Component {
   componentDidMount() {
-    setTimeout(() => {
-      document.querySelector('.container__header').classList.add('container__header-changed');
-    }, 200)
+
+    if (sessionStorage.length === 0) {
+      sessionStorage.setItem("class", true);
+      setTimeout(() => {
+        document.querySelector('.container__header').classList.add('container__header-changed');
+      }, 500)
+      return;
+    }
+    else {
+      document.querySelector(".container__header").classList.add('container__header-changed')
+      return
+    }
   }
 
 

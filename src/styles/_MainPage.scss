@@ -4,13 +4,10 @@
     align-items: center;
     justify-content: center;
     opacity:0;
-    &-animation{
-        animation: changeOpacityStartPage 0.5s 2.5s both;    
-    }
-    &-withoutAnimation{
-        animation: none;
-        opacity: 1;
-    }
+    transition: 1s;
+ &-changed{
+     opacity: 1;
+ }
     &__wrapper{
         width: 60%;
         background-color: rgba(245, 245, 220, 0.7);

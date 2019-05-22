@@ -5,18 +5,14 @@ class MainPage extends Component {
 
     componentDidMount() {
         if (sessionStorage.length === 0) {
-            sessionStorage.setItem("class", true);
-            document.querySelector('.page').classList.add('page-animation')
-            document.querySelector('.container__header').classList.add('container__header-animation')
-            return;
+            setTimeout(() => {
+                document.querySelector(".page").classList.add("page-changed")
+            }, 1000)
         }
         else {
-            document.querySelector(".page").classList.add('page-withoutAnimation')
-            document.querySelector(".container__header").classList.add('container__header-withoutAnimation')
-            return
+            document.querySelector(".page").classList.add("page-changed")
         }
     }
-
     render() {
         return (
             <div className="page">
