@@ -8,7 +8,6 @@ import Footer from './layouts/Footer';
 
 class SweetMuffin extends Component {
   componentDidMount() {
-
     if (sessionStorage.length === 0) {
       sessionStorage.setItem("class", true);
       setTimeout(() => {
@@ -21,8 +20,6 @@ class SweetMuffin extends Component {
       return
     }
   }
-
-
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>

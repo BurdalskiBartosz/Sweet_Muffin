@@ -13,13 +13,11 @@
         transition: transform  0.45s;
     }
 }
-
 @media (min-width: 370px) and (min-height:812px){
     .slider {
         height: 45vh;
     }
 }
-
 @media (orientation: landscape) {
     .slider {
         height: 70vh;
@@ -29,26 +27,7 @@
 @media (min-width: 414px) and (orientation:portrait) {
     .slider {
         height: 45vh;
-        // width: 50vw;
     }
-}
-@media (min-width: 576px){
-}    
-
-@media (min-width: 660px) {
-
-}
-@media (min-width: 768px) {
- 
-}
-@media (min-width: 1024px) {
-
-}
-@media (min-width: 1200px) {
-
-}
-@media (min-width: 1530px) {
-
 }
 @media (min-width: 1915px) {
     .slider {

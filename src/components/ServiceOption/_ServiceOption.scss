@@ -1,12 +1,8 @@
 .servicesPage__service{
+    @include basicStyle;
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: rgb(182, 182, 182);
-    box-shadow: 5px 5px 10px black;
-    border: 5px solid beige;
-    padding: 5px;
     margin-bottom: 5px;
     .servicePage__title{
         margin-bottom: 5px;

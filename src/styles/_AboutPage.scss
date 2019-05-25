@@ -1,23 +1,14 @@
 .wrapper{
+    @include basicStyle;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 90%;
-
     font-family: 'Pacifico', cursive;
-
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 5px solid beige;
-    box-shadow: 5px 5px 10px black;
-    padding: 5px;
-
     margin-bottom: 20px;
     .about__title{
         text-align: center;
         animation: fontColor 5s infinite forwards;
-    }
-    .about__text{
-        color: rgb(182, 182, 182);
     }
     .about__img{
         width:60%;
@@ -31,9 +22,7 @@
         }
     }
 }
-@media (min-width: 370px) and (min-height:812px){
- 
-}
+
 @media (min-width: 1024px) {
     .wrapper{
         width: 80%;

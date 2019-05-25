@@ -5,12 +5,10 @@
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 .container{
     display: flex;
     flex-direction: column;
-    // min-height: 100vh;
     &__header{
         position:absolute;
         top: 40%;
@@ -82,9 +80,6 @@ html{
             }
         }
     }
-}
-@media (orientation: landscape) {
-   
 }
 @media (min-width: 360px)  {
     .container__page {
@@ -250,23 +245,3 @@ html{
         }
     }
 }
-// @media (min-width: 414px) {
-// }
-// @media (min-width: 576px) {
-// }
-// @media (min-width: 640px){
-// }
-// @media (min-width: 768px) {
-// }
-// @media (min-width: 992px) {
-// }
-// @media (min-width: 1024px) {
-// }
-
-
-// @media (min-width: 1200px){
-// }
-// @media (min-width: 1281px) {    
-// }
-// @media (min-width: 1366px) {
-// }

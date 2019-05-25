@@ -1,4 +1,5 @@
 .contact{
+    @include basicStyle;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -6,12 +7,6 @@
     border-radius: 10% 20% 5% 15%;
     margin: 0 5px 25px 5px;
     padding: 0 20px 10px 20px;
-
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 5px solid beige;
-    box-shadow: 5px 5px 10px black;
-
-    color: rgb(182, 182, 182);
     &__title{
         font-family: 'Pacifico', cursive; 
         font-size: 2em;    
@@ -23,13 +18,11 @@
         height: 70vh;
     }
 }
-
 @media (orientation:landscape){
     .contact{
         width: 70%;
     }
 }
-
 @media (min-width: 414px) {
     .contact{
         width: 80%;

@@ -19,13 +19,7 @@
     text-align: center;
     overflow: hidden;
     transition: width 1s;
-    
-    background-color: rgba(0, 0, 0, 0.8);
-    border: 5px solid beige;
-    box-shadow: 5px 5px 10px black;
-    padding: 5px;
-    color: rgb(182, 182, 182);
-
+    @include basicStyle;
 }
 
 @media (orientation: landscape) {
@@ -67,9 +61,6 @@
         width: 20vw;
         height: 20vw;
     }
-    // .fullInfo{
-    //     height: 60vh;
-    // }
 }
 @media (min-width: 768px) {
     .fullInfo{
